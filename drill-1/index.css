@@ -1,0 +1,37 @@
+* {
+  background-color: white;
+}
+
+.container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(54, 54, 54);
+  width: 1440px;
+  height: 200px;
+}
+
+#left-side {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  background-color: lightgrey;
+  width: 200px;
+  height: 564px;
+}
+#right-side {
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  background-color: lightgrey;
+  width: 200px;
+  height: 564px;
+}
+#bottom {
+  position: absolute;
+  top: 564px;
+  right: 200px;
+  background-color: black;
+  width: 1040px;
+  height: 200px;
+}
